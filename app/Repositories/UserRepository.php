@@ -6,7 +6,7 @@ use App\User;
 use Carbon\Carbon;
 use Hash;
 
-class AuthRepository
+class UserRepository
 {
     public function create(array $data): User
     {
